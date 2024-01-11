@@ -1,0 +1,111 @@
+/* Styling for the header section */
+header {
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+
+}
+
+/* Styling for the first section of the header */
+.first-section {
+    height: 60px;
+    width: 100%;
+    text-align: center;
+    color: black;
+    background-color: #0e0909;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 25px;
+}
+
+/* Styling for the logo */
+.logo h2 {
+    font-size: 30px;
+    color: rgb(185, 185, 12);
+}
+
+/* Styling for the login-cart section */
+.login-cart {
+    display: flex;
+    justify-content: center;
+    padding-right: 45px;
+    gap: 20px;
+    align-items: center;
+}
+
+/* Styling for the login-cart button and cart icon */
+.login-cart button {
+    border: none;
+    padding: 5px 20px;
+    background-color: rgb(190, 190, 11);
+    border-radius: 4px;
+}
+
+.cart {
+    color: rgb(173, 173, 16);
+    font-size: 25px;
+    cursor: pointer;
+}
+
+/* Styling for the searchbar section */
+.searchbar {
+    width: 60%;
+}
+
+.searchbar input {
+    outline: none;
+    border: none;
+    padding: 4px 10px;
+    width: 40%;
+    border-radius: 0px 0px 0px 8px;
+    border: 0.5px solid lightgray;
+}
+
+.searchbar button {
+    padding: 5px 16px;
+    border-radius: 0px 0px 8px 0px;
+    background-color: rgb(182, 182, 13);
+    border: none;
+}
+
+.searchbar button:hover {
+    transition: 450ms ease;
+    background-color: rgb(155, 155, 11);
+}
+
+/* Styling for the second section of the header */
+.second-section {
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    color: black;
+    background-color: #ebe7e7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Styling for the menu items */
+.second-section .menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 4px 0px;
+    color: black;
+}
+
+/* Styling for list items and links */
+li {
+    list-style-type: none;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+li a {
+    color: black;
+}

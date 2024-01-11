@@ -1,0 +1,115 @@
+/* Styling for the slider */
+.slider {
+    background-color: rgba(196, 197, 197, 0.267);
+    padding: 10px 20px;
+}
+
+/* Styling for the product card */
+.product-card {
+    height: 430px;
+    width: 300px;
+    padding: 10px 20px;
+    margin: 5px 0px;
+    background-color: rgb(10, 18, 26);
+    border-radius: 5px;
+    color: #fff;
+}
+
+/* Styling for the product card image */
+.product-card-img {
+    height: 200px;
+    width: 100%;
+    border-radius: 5px;
+
+}
+
+/* Styling for the product card title */
+.product-card-title {
+    padding: 10px 0px;
+}
+
+/* Styling for the checkout button */
+.check-out-button {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Styling for the product card price */
+.product-card-price {
+    padding: 2px 0px;
+    font-size: 18px;
+}
+
+/* Styling for the button inside the checkout */
+.check-out-button button {
+    padding: 5px 20px;
+    border-radius: 5px;
+    color: azure;
+    border: 0.5px solid lightgray;
+    background-color: rgba(129, 129, 5, 0.644);
+}
+
+/* Button hover effect */
+.check-out-button button:hover {
+    transition: 400ms ease;
+    background-color: rgba(179, 179, 7, 0.699);
+
+}
+
+/* Media queries for responsive design */
+@media (max-width:1200px) {
+    .product-card {
+        height: auto;
+        width: 100%;
+        padding: 10px 20px;
+        margin: 5px 0px;
+        background-color: rgb(10, 18, 26);
+        border-radius: 5px;
+        color: aliceblue;
+    }
+
+}
+
+/* Media queries for responsive design */
+@media (max-width:1000px) {
+    .product-card {
+        height: auto;
+        width: 100%;
+        padding: 10px 20px;
+        margin: 5px 0px;
+        background-color: rgb(10, 18, 26);
+        border-radius: 5px;
+        color: aliceblue;
+    }
+
+}
+
+/* Media queries for responsive design */
+@media (max-width:700px) {
+    .product-card {
+        height: auto;
+        width: 100%;
+        padding: 10px 20px;
+        margin: 5px 0px;
+        background-color: rgb(10, 18, 26);
+        border-radius: 5px;
+        color: aliceblue;
+    }
+
+}
+
+/* Media queries for responsive design */
+@media (max-width:500px) {
+    .product-card {
+        height: 430px;
+        width: 100%;
+        padding: 10px 20px;
+        margin: 5px 0px;
+        background-color: rgb(10, 18, 26);
+        border-radius: 5px;
+        color: aliceblue;
+    }
+
+}

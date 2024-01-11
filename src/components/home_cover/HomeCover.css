@@ -1,0 +1,95 @@
+/* Styles for the HomeCover component */
+
+/* Styling for the main cover section */
+.home-cover {
+    height: 450px;
+    width: 100%;
+    background-color: rgba(63, 62, 62, 0.473);
+    background-image: url("https://cdn.pixabay.com/photo/2021/11/15/05/25/boutique-6796399_1280.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/* Styling for the content within the cover section */
+.home-cover div{
+    text-align: center;
+}
+
+/* Styling for the heading */
+h2{
+    font-size: 60px;
+    font-family: 'Lobster', sans-serif;
+    color: rgba(246, 247, 248, 0.959);
+}
+
+/* Styling for the paragraph */
+p{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* Media query for smaller screens (max-width: 750px) */
+@media (max-width:750px) {
+    .home-cover {
+        height: 280px;
+        width: 100%;
+        background-color: rgba(63, 62, 62, 0.473);
+        background-image: url("https://cdn.pixabay.com/photo/2021/11/15/05/25/boutique-6796399_1280.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    
+h2{
+    font-size:40px;
+    font-family: 'Lobster', sans-serif;
+    color: rgba(246, 247, 248, 0.959);
+}
+
+p{
+    font-size: 14px;
+    font-weight: 600;
+}
+    
+}
+
+
+@media (max-width:560px) {
+    .home-cover {
+        height: 280px;
+        width: 100%;
+        background-color: rgba(63, 62, 62, 0.473);
+        background-image: url("https://cdn.pixabay.com/photo/2021/11/15/05/25/boutique-6796399_1280.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    
+h2{
+    font-size:40px;
+    font-family: 'Lobster', sans-serif;
+    color: rgba(246, 247, 248, 0.959);
+}
+
+p{
+    font-size: 14px;
+    font-weight: 600;
+}
+    
+}
+

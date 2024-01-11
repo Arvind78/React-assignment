@@ -1,0 +1,27 @@
+/* Footer link styles */
+a {
+    text-decoration: none;
+    padding: 8px 0px;
+    cursor: pointer;
+  }
+  
+  /* List item styles */
+  li {
+    padding: 4px 0px;
+  }
+  
+  /* Responsive design for smaller screens */
+  @media (max-width: 450px) {
+    .responsive {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+  
+    /* Adjusting footer menu width */
+    .footer-menu {
+      width: 85%;
+    }
+  }
+  
